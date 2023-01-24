@@ -149,7 +149,7 @@ let textController = new TextController
 textController.initialize()
 
 function startTimer(){
-	let duration = 15
+	let duration = 30
 	console.log('startedTimer')
 	function result(){
 	    textController.ended = true
