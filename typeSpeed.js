@@ -140,7 +140,7 @@ class TextController {
         document.getElementById('stats').classList.add('hidden')
         document.getElementById('textBlock').classList.remove('blur')
 
-        document.getElementById('wps').innerText = ''
+        document.getElementById('wpm').innerText = ''
         document.getElementById('accuracy').innerText = ''
      }    
 
