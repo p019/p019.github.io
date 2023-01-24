@@ -155,7 +155,7 @@ function startTimer(){
 	    textController.ended = true
 	    document.getElementById('textBlock').classList.add('blur')
 	    document.getElementById('stats').classList.remove('hidden')
-         document.getElementById('wps').innerText = Math.round(textController.typed * (60/duration) / 5)
+         document.getElementById('wpm').innerText = Math.round(textController.typed * (60/duration) / 5)
          document.getElementById('accuracy').innerText = '100%'
 	}
 	setTimeout(result,duration*1000)
