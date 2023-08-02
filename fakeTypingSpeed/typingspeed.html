@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>typeTxt</title>
+	<style type="text/css">
+	    body{background: #323437;}
+	    span{font-family: arial;}
+	    p{margin:5vh;}
+		.move{transition: all 0.1s ease-in;transform: translate(0,-15vh) ;}
+		.untyped{color: rgba(255, 255, 255, 0.3);}
+		.typed{color: rgba(255, 255, 255, 0.9);}
+		#textBlock{text-align: center;font-size: 4vw;user-select: none;line-height: 10vh;}
+		#restartButton{text-align: center;border: solid 1px black;width: 20vh;margin: auto;font-family: consolas;user-select: none;position: absolute;top: 60vh;left:calc(50vw - 10vh);}
+		#restartButton:hover{background: #e2b714;cursor: pointer;}
+		.hidden{display: none;}
+		#stats{font-family: consolas;}
+		.blur{filter: blur(4px)}
+		#stats{font-size: 4vh}
+		#stats > .statvalue{font-size: 5vh}
+		#stats{color: rgba(255, 255, 255, 0.3) ;}
+		.statvalue{color: rgba(255, 255, 255, 0.9) ;}
+	</style>
+</head>
+<body>
 
+<div id='mainblock'>
+	<div id='textBlock'>
+	</div>
+</div>
+<div id='stats' class="hidden">
+	<p>WPM</p>
+	<p class='statvalue'id='wpm'></p>
+	<p>ACCURACY</p>
+	<p class='statvalue'id='accuracy'></p>
+</div>
+<div  id='restartButton'class='hidden' onclick="textController.reset()">restart test</div>
+
+<script type="text/javascript" src="text.js"></script>
+<script type="text/javascript" src="typeSpeed.js"></script>
+
+</body>
+</html>
