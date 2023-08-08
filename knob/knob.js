@@ -1,4 +1,4 @@
-export default class Knob extends HTMLElement {
+class Knob extends HTMLElement {
 
   template = `
   <svg xmlns="http://www.w3.org/2000/svg" 
