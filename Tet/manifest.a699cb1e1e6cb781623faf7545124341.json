@@ -1,0 +1,42 @@
+{
+  "icons": [
+    {
+      "src": "/Tet/icon_512x512.2e09d4510e2e4b3be75ea6f0507b2868.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/Tet/icon_384x384.731e51bf3f53645c69a333f1d849a744.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/Tet/icon_256x256.c4f990adb0c60e6fb78fe0aa5605a068.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/Tet/icon_192x192.445c3eaaa15d7c199167002f8e421648.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/Tet/icon_128x128.6d6ad059e0348e7d87ee0e9c36ada24b.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/Tet/icon_96x96.94730775a786be80dec8eefd2fd523ec.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "TEt",
+  "short_name": "TEt",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "index.html",
+  "description": "p019's tetris clone",
+  "theme_color": "#292929",
+  "background_color": "#292929"
+}
